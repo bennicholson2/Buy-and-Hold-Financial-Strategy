@@ -1,8 +1,3 @@
-poetry add dash
-poetry add yfinance
-poetry add pandas
-poetry add plotly
-
 [tool.poetry]
 name = "financial-capstone"
 version = "0.1.0"
