@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: sector-etf-dashboard  # Name of your service
+    env: python  # Runtime environment
+    buildCommand: pip install -r requirements.txt  # Command to install dependencies
+    startCommand: python app.py  # Command to start your Dash app
+    autoDeploy: true  # Automatically deploy on changes to the branch
+    region: oregon  # Choose your preferred region
