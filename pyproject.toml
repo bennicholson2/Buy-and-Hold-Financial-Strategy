@@ -2,3 +2,20 @@ poetry add dash
 poetry add yfinance
 poetry add pandas
 poetry add plotly
+
+[tool.poetry]
+name = "financial-capstone"
+version = "0.1.0"
+description = "A financial strategy project"
+authors = ["Benjamin Nicholson <your_email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dash = "^2.0"
+yfinance = "^0.1.62"
+pandas = "^1.3"
+plotly = "^5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
