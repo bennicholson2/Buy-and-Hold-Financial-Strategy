@@ -1,0 +1,4 @@
+poetry add dash
+poetry add yfinance
+poetry add pandas
+poetry add plotly
