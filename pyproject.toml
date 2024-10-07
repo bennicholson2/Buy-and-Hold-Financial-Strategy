@@ -5,7 +5,7 @@ description = "A financial strategy project"
 authors = ["Benjamin Nicholson <your_email@example.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.9,<4.0"  # Updated Python requirement
 dash = "^2.0"
 yfinance = "^0.1.62"
 pandas = "^1.3"
